@@ -90,7 +90,7 @@ const Form = () => {
                 {language === "english"
                 ? <button type="submit" disabled={valid}>Send Email</button>
                 : <button type="submit" disabled={valid}>Enviar Email</button>}
-                <input type="hidden" name="_next" value="http://localhost:5173/contact"/>
+                <input type="hidden" name="_next" value="https://ailingalante.vercel.app/contact"/>
                 <input type="hidden" name="_captcha" value="false"/>
         </form>
     )
