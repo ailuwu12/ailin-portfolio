@@ -5,6 +5,17 @@
         "dest": "/index.html",
         "cleanUrls": true
       }
-    ]
+    ],
+    
+        "rewrites": [
+          {
+            "source": "/:path*",
+            "destination": "/index.html",
+            "headers": {
+              "cache-control": "public, max-age=0, must-revalidate"
+            }
+          }
+        ]
+      
   }
-  
+    
