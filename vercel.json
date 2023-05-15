@@ -1,21 +1,10 @@
 {
     "routes": [
-      {
-        "src": "/.*",
-        "dest": "/index.html",
-        "cleanUrls": true
-      }
+      { "src": "/(.*)", "dest": "/index.html" }
     ],
-    
-        "rewrites": [
-          {
-            "source": "/:path*",
-            "destination": "/index.html",
-            "headers": {
-              "cache-control": "public, max-age=0, must-revalidate"
-            }
-          }
-        ]
-      
+    "rewrites": [
+      { "source": "/api/:slug", "destination": "https://example.com/api/:slug" }
+    ]
   }
+  
     
