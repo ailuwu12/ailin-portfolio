@@ -1,10 +1,9 @@
 {
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ],
     "rewrites": [
-      { "source": "/api/:slug", "destination": "https://example.com/api/:slug" }
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
     ]
   }
   
-    
