@@ -5,5 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '',
+  server: {
+    // Opción para habilitar el enrutamiento del lado del cliente.
+    // Todas las rutas desconocidas se redirigen al punto de entrada de la aplicación (index.html).
+    // Esto permite que React Router controle las rutas.
+    historyApiFallback: true
+  }
 })
 
