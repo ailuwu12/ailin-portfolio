@@ -1,0 +1,77 @@
+.container{
+    font-size: 18px;
+    background-color: #f2f2f2;
+    border: 3px solid #1A1A1A;
+    border-top: 0;
+    box-shadow: 4px 6px 0 #1A1A1A;
+    padding: 30px;
+    padding-top: 60px;
+    margin: 100px;
+    margin-top: 50px;
+    width: 500px;
+    box-sizing: border-box; /* añadido para incluir el borde y el relleno en el ancho */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.header {
+    background-color: #9723c9;
+    height: 60px;
+    border: 3px solid #1A1A1A;
+    border-bottom: 0;
+    box-shadow: 4px 0 0 #1A1A1A;
+    position: absolute;
+    top: -20px;
+    left: -3px;
+    width: calc(100% + 6px); /* ajusta el ancho para que sea igual al contenedor */
+    box-sizing: border-box; /* añadido para incluir el borde y el relleno en el ancho */
+}
+
+.container h1{
+    color: #9723c9;
+    text-shadow: 1px 0 #1a1a1a, -1px 0 #1a1a1a, 0 1px #1a1a1a, 0 -1px #1a1a1a,
+    1px 1px #1a1a1a, -1px -1px #1a1a1a, 1px -1px #1a1a1a, -1px 1px #1a1a1a;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.container p{
+    text-align: justify;
+    font-weight: 500;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.container button{
+    width: 220px;
+    height: 70px;
+    padding: 20px;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    margin-top: 20px;
+}
+
+.container button:hover{
+    width: 240px;
+}
+
+.container button svg{
+    height: 30px;
+}
+
+.container button span{
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+}

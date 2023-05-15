@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container button{
+    margin: 20px;
+    margin-top: 15px;
+    height: 60px;
+}
+
+.container img{
+    width: 50px;
+}

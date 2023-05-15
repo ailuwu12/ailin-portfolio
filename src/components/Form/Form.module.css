@@ -1,0 +1,79 @@
+.container{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input input{
+    justify-self: flex-end;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.message textarea{
+    width: 450px;
+    height: 300px;
+    
+}
+
+.contact{
+    padding: 50px;
+    padding-top: 0;
+    zoom: 90%;
+    margin: 80px;
+}
+
+.contact h1{
+    margin-top: 0;
+    margin-bottom: 50px;
+    /* color: #9723c9;
+    text-shadow: 1px 0 #1a1a1a, -1px 0 #1a1a1a, 0 1px #1a1a1a, 0 -1px #1a1a1a,
+    1px 1px #1a1a1a, -1px -1px #1a1a1a, 1px -1px #1a1a1a, -1px 1px #1a1a1a; */
+}
+
+.contact button{
+    margin: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 850px;
+}
+
+.contact button:hover{
+    width: 180px;
+}
+
+.error{
+    font-size: 18px;
+    color: red;
+    margin-left: 100px;
+}
+
+.messageError{
+    font-size: 18px;
+    color: red;
+    margin-left: 500px;
+    margin-top: 0;
+}
