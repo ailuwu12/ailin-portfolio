@@ -1,3 +1,4 @@
+# Rewrite rules
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -5,4 +6,10 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
+</IfModule>
+
+# MIME types
+<IfModule mod_mime.c>
+  AddType text/html .html
+  AddType application/octet-stream .wasm
 </IfModule>
