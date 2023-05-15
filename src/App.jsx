@@ -5,7 +5,7 @@ import About from "./views/About"
 import Contact from "./views/Contact"
 import Projects from "./views/Projects"
 import NotFound from "./views/NotFound"
-import NavBar from "./components/NavBar/NavBar"
+import NavBar from "./components/NavBar/NavBar.jsx"
 
 function App() {
   return (
