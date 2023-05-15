@@ -12,8 +12,6 @@ export default defineConfig({
     historyApiFallback: true
   },
   build: {
-    outDir: 'build',
-    assetsDir: '',
     rollupOptions: {
       input: {
         main: './index.html'
