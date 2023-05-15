@@ -10,6 +10,13 @@ export default defineConfig({
     // Todas las rutas desconocidas se redirigen al punto de entrada de la aplicación (index.html).
     // Esto permite que React Router controle las rutas.
     historyApiFallback: true
-  }
+  },
+  build: {
+    outDir: 'build',
+    assetsDir: '',
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }}}
 })
 
