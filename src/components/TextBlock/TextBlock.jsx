@@ -14,10 +14,10 @@ const TextBlock = ({ language }) => {
                 : <p>
                 My name is Ailín Galante Rosso. I was born in Miramar, Buenos Aires, Argentina, but currently, I live in the city of Mar del Plata. I am 22 years old. I am currently a Full-Stack Developer. Before diving into the world of programming, I studied physics for two years, but I put those studies on hold because I didn't see myself professionally developing in that field. I have always been interested in programming, especially web development. As a person born in the 2000s, I was raised spending hours in front of a PC, browsing the internet. Today, I am bringing my ideas to life through code, after months of studying how to do it.
                 </p>}
-                <button><a href={ailin} download="ailin_galante_cv"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <a href={ailin} download="ailin_galante_cv"><button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
 </svg>{language === "spanish" ? <span>Descarga mi CV</span> : <span>Download my CV</span>}
-</a></button>
+</button></a>
             </div>
             <SoftSkills language={language}/>
         </div>

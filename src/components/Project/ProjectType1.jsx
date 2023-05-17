@@ -18,8 +18,8 @@ const ProjectType1 = ({image, spanishText, englishText, deploy, repo, title}) =>
                 <div className={style.links}>
                 <button><a href={deploy} target="_blank">Deploy</a></button>
                 {language === "spanish"
-                ? <button><a href={repo} target="_blank">Repositorio</a></button>
-                : <button><a href={repo} target="_blank">Repository</a></button>}
+                ? <a href={repo} target="_blank"><button>Repositorio</button></a>
+                : <a href={repo} target="_blank"><button>Repository</button></a>}
                 </div>
             </div>
         </div> 

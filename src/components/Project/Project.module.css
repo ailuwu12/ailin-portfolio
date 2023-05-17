@@ -179,6 +179,10 @@
         background-color: #c92370;
     }
 
+    .links2 button:active{
+        background-color: #921b52;
+    }
+
     .links2 button:hover{
         width: 120px;
     }
